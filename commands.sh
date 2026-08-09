@@ -25,3 +25,4 @@ sudo chmod +x ~/.config/i3/kblayout.sh
 sudo chmod +x ~/.config/i3/polr.sh
 nvim --headless "+Lazy! sync" +qa
 
+echo "Fonts used: Monocraft, Departure Mono Nerd font"
