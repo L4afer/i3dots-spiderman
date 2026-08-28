@@ -7,3 +7,4 @@ cp -r ~/Downloads/i3dots-spiderman/.config/neofetch ~/.config
 cp -r ~/Downloads/i3dots-spiderman/.config/kitty ~/.config/
 cp -r ~/Downloads/i3dots-spiderman/.config/kitty/.zshrc ~/
 cp -r ~/Downloads/i3dots-spiderman/.config/i3 ~/.config/
+betterlockscreen -u ~/.config/i3/wallhaven-7p35lv_1366x768.png
