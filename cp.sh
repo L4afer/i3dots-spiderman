@@ -6,6 +6,7 @@ cp -r ~/Downloads/i3dots-spiderman/.config/rofi ~/.config/
 cp -r ~/Downloads/i3dots-spiderman/.config/neofetch ~/.config
 cp -r ~/Downloads/i3dots-spiderman/.config/kitty ~/.config/
 cp -r ~/Downloads/i3dots-spiderman/.config/kitty/.zshrc ~/
+rm -rf ~/.config/i3
 cp -r ~/Downloads/i3dots-spiderman/.config/i3 ~/.config/
 i3 reload
 ~/.config/i3/polr.sh
