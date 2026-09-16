@@ -6,7 +6,6 @@ exec_always --no-startup-id picom
 exec_always --no-startup-id feh --bg-scale /home/isaac/.config/i3/wallhaven-7p35lv_1366x768.png
 exec --no-startup-id pkill polybar -c ~/.config/polybar/config1.ini
 exec_always --no-startup-id polybar -c  ~/.config/polybar/config1.ini
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
