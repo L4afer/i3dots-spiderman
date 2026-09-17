@@ -24,10 +24,12 @@
     pink:     rgba(245, 194, 231, 1);
     flamingo: rgba(242, 205, 205, 1);
     rosewater:rgba(245, 224, 220, 1);
+    borderc:  rgba(82, 39, 39);
+    mode:     rgba(82, 39, 39);
 
     /* Rofi colour vars */
     background-color: transparent;
-    border-color:     @mauve;
+    border-color:     @borderc;
     text-color:       @text;
     font:             "Monocraft 12";
 }
@@ -60,14 +62,14 @@ inputbar {
 
 prompt {
     background-color: transparent;
-    text-color:       @mauve;
+    text-color:       @mode;
     padding:          2px 0;
 }
 
 entry {
     background-color: transparent;
     text-color:       @text;
-    placeholder:      "Search apps…";
+    placeholder:      "Search";
     placeholder-color: @overlay0;
     cursor:           text;
     padding:          2px 0;
