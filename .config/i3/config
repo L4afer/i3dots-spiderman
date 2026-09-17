@@ -16,9 +16,10 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # MY KEYBINDS
-bindsym $mod+Q exec kitty --config ~/.config/kitty/spiderman.conf #terminal
+bindsym $mod+Q exec kitty --config ~/.config/kitty/kitty.conf #terminal
 bindsym $mod+Shift+G exec ~/Downloads/i3dots-green/cp.sh
 bindsym $mod+Shift+A exec ~/Downloads/i3dots-autumn/cp.sh
+bindsym $mod+Shift+W exec ~/Downloads/i3dots-winter/cp.sh
 bindsym $mod+Shift+S exec ~/Downloads/i3dots-spiderman/cp.sh
 bindsym $mod+Escape exec ~/.config/i3/lock.sh
 bindsym Mod1+Return exec ~/.config/i3/scrot.sh
