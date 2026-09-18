@@ -11,3 +11,5 @@ cp -r ~/Downloads/i3dots-spiderman/.config/i3 ~/.config/
 i3 reload
 ~/.config/i3/polr.sh
 betterlockscreen -u ~/.config/i3/wallhaven-7p35lv_1366x768.png
+
+echo "This config is no longer maintained, procceed at your own risk"

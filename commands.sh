@@ -27,3 +27,4 @@ sudo chmod +x ~/.config/i3/polr.sh
 nvim --headless "+Lazy! sync" +qa
 
 echo "Fonts used: Monocraft, Departure Mono Nerd font"
+echo "This config is no longer maintained, procceed at your own risk"
